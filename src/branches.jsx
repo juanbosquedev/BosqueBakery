@@ -1,4 +1,4 @@
-function branches() {
+function Branches() {
 
     return (
       <>
@@ -9,4 +9,4 @@ function branches() {
     )
   }
   
-  export default branches
+  export default Branches;
