@@ -1,13 +1,23 @@
-function Branches() {
+import { Link } from "react-router-dom";
 
-    return (
-      <>
-        <div>
-      <h1>SUCURSALES <br/>
-      <b>JUAN CARLOS</b></h1>
-         </div>
-      </>
-    )
-  }
-  
-  export default Branches;
+function Branches() {
+  return (
+    <>
+      <div>
+        <h1>
+          O HIGGINS B° CABAÑA DEL PILAR
+          <br />
+          LOPEZ CABRERA B° CERVECEROS
+          <br />
+          CELSO BARRIOS B° JARDÍN DEL SUR
+          <br />
+          NOMBRE B° CERVECEROS ANEXO
+          <br />
+        </h1>
+        <Link to="/home">voler</Link>
+      </div>
+    </>
+  );
+}
+
+export default Branches;
