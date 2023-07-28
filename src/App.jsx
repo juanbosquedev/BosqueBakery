@@ -3,6 +3,7 @@ import Branches from "./branches";
 import Home from './home'
 import Nav from './nav'
 import Contact from "./contact";
+import About from "./about";
 import "./App.css";
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
     <div>
         <Nav/>
       <Routes>
-        <Route exact path="/home" element={<Home/>} />
+        <Route exact path="/" element={<Home/>} />
+        <Route path="/about" element={<About/>} />
         <Route path="/sucursales" element={<Branches/>} />
         <Route path="/contacto" element={<Contact/>} />
 
