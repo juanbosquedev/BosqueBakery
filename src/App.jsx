@@ -1,4 +1,4 @@
-// import Branches from './Branches'
+import Branches from './Branches'
 import './App.css'
 
 function App() {
@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <div>
-        {/* <Branches/> */}
+        <Branches/>
         <h1>hola</h1>
        </div>
     </>
