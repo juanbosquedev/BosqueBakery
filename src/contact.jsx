@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 export default function Contacto() {
   return (
     <form>
@@ -19,6 +20,7 @@ export default function Contacto() {
       <button type="submit" id="inputButton" name="inputButton">
         Enviar
       </button>
+      <Link to="/home">voler</Link>
     </form>
   );
 }

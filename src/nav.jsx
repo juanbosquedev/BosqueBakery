@@ -4,8 +4,10 @@ export default function Nav() {
   return (
     <div>
       <h1>Nosotros</h1>
-      <Link to='/sucursales'>Sucursales</Link>
-      <Link to='/contacto'>Contacto</Link>
+      <Link to="/sucursales">Sucursales</Link>
+      <br />
+      <Link to="/contacto">Contacto</Link>
+      <br />
     </div>
   );
 }
