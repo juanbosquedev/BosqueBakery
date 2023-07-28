@@ -1,4 +1,4 @@
-import Branches from './Branches'
+import Branches from './branches'
 import './App.css'
 
 function App() {
