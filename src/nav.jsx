@@ -5,6 +5,7 @@ export default function Nav() {
     <div>
       <h1>Nosotros</h1>
       <Link to='/sucursales'>Sucursales</Link>
+      <Link to='/contacto'>Contacto</Link>
     </div>
   );
 }
