@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import Branches from "./branches";
 import Home from './home'
 import Nav from './nav'
+import Contact from "./contact";
 import "./App.css";
 
 function App() {
