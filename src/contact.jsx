@@ -1,4 +1,4 @@
-export default function Contact() {
+export default function Contacto() {
   return (
     <form>
       <input type="text" id="inputName" name="name" placeholder="Name" />
