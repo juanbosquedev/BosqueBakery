@@ -5,6 +5,8 @@ export default function Nav() {
     <div>
       <Link to="/">Inicio</Link>
       <br />
+      <Link to="/products">Productos</Link>
+      <br />
       <Link to="/about">Nosotros</Link>
       <br />
       <Link to="/sucursales">Sucursales</Link>
