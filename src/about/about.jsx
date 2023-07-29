@@ -6,9 +6,10 @@ export default function About() {
         <br />
         historia
         <br />
-        valores
-        <br />
         mision
+        <br />
+        valores
+        
       </h1>
     </div>
   );

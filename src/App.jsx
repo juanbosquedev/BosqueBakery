@@ -1,9 +1,10 @@
 import { Routes, Route } from "react-router-dom";
-import Branches from "./branches";
-import Home from './home'
+import Branches from "./branches/branches";
+import Home from './home/home'
 import Nav from './nav'
-import Contact from "./contact";
-import About from "./about";
+import Contact from "./contact/contact";
+import About from "./about/about";
+import Products from "./prodcuts/products";
 import "./App.css";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Route path="/about" element={<About/>} />
         <Route path="/sucursales" element={<Branches/>} />
         <Route path="/contacto" element={<Contact/>} />
+        <Route path="/products" element={<Products/>} />
 
       </Routes>
     </div>
