@@ -13,7 +13,7 @@ function Branches() {
             {branche.adress}
             <br />
             {branche.adressImg && (
-              <Link to={branche.adressLink}>
+              <Link to={branche.adressLink} target="_blank" >
                 <img src={branche.adressImg} alt={branche.name} />
               </Link>
             )}
