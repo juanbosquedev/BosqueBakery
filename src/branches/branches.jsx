@@ -16,7 +16,7 @@ function Branches() {
             <br />
             {branch.adressLink &&
             <Link to={branch.adressLink}>
-             <img src={branch.adressImg} alt="Sucursal" />
+             <img src={branch.adressImg} alt={branch.name}/>
            
             </Link>}
           </h1>
