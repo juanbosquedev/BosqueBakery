@@ -1,20 +1,27 @@
-import { Link } from "react-router-dom";
+// Branches.js
+import React from 'react';
+import { Link } from 'react-router-dom';
+import branches from './branchJSON';
 
 function Branches() {
+  console.log(branches.map((branch) => branch));
   return (
     <>
       <div>
-        <h1>
-          O HIGGINS B° CABAÑA DEL PILAR
-          <br />
-          LOPEZ CABRERA B° CERVECEROS
-          <br />
-          CELSO BARRIOS B° JARDÍN DEL SUR
-          <br />
-          NOMBRE B° CERVECEROS ANEXO
-          <br />
-        </h1>
-        <Link to="/home">voler</Link>
+        {branches?.map((branch) => (
+          <h1 key={branch.name}>
+            {branch.name}
+            <br />
+            {branch.adress}
+            <br />
+            {branch.adressLink &&
+            <Link to={branch.adressLink}>
+             <img src={branch.adressImg} alt="Sucursal" />
+           
+            </Link>}
+          </h1>
+        ))}
+        <Link to="/home">Volver</Link>
       </div>
     </>
   );
