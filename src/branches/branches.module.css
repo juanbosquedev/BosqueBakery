@@ -1,0 +1,17 @@
+.branche_body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 1rem;
+}
+.branche_main {
+  display: flex;
+  flex-direction: row;
+  width: 40vw;
+  align-content: center;
+}
+
+.branche_map_img {
+  height: 4rem;
+  border-radius: 0.4rem;
+}
