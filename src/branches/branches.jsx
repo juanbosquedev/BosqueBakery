@@ -3,6 +3,7 @@ import branches from "./branchJSON.JS";
 import style from "./branches.module.css";
 
 function Branches() {
+  
   return (
     <>
       
@@ -23,10 +24,11 @@ function Branches() {
                 </Link>
               )}
             </div>
+            
           </div>
         ))}
 
-        <Link to="/home">voler</Link>
+        <Link to="/home" className={style.branche_comeBack_button}>voler</Link>
      
     </>
   );

@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
+import style from './nav.module.css'
 
 export default function Nav() {
   return (
-    <div>
+    <div className={style.Nav_main}>
       <Link to="/">Inicio</Link>
       <br />
       <Link to="/products">Productos</Link>

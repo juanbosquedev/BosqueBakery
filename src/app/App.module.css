@@ -5,8 +5,9 @@
   text-align: center;
 }
 Nav{
-  display: flex;
-  flex-direction: row;
+display: flex;
+align-content: flex-end;
+font-size: 30rem;
   background-color: rgb(184, 100, 69);
 }
 .logo {
