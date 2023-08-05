@@ -12,7 +12,7 @@ export default function Nav() {
       <br />
       <Link to="/sucursales">Sucursales</Link>
       <br />
-      <Link to="/contacto">Contacto</Link>
+      <Link to="contacto">Contacto</Link>
       <br />
     </div>
   );

@@ -10,13 +10,13 @@ import style from './App.module.css'
 function App() {
   return (
     <div className={style}>
-        <Nav/>
+
       <Routes>
         <Route exact path="/" element={<Home/>} />
         <Route path="/about" element={<About/>} />
         <Route path="/sucursales" element={<Branches/>} />
-        <Route path="/contacto" element={<Contact/>} />
         <Route path="/products" element={<Products/>} />
+        <Route path="/contacto" element={<Contact/>} />
       </Routes>
     </div>
   );
