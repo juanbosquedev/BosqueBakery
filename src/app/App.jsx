@@ -10,7 +10,7 @@ import style from './App.module.css'
 function App() {
   return (
     <div className={style}>
-
+        <Nav/>
       <Routes>
         <Route exact path="/" element={<Home/>} />
         <Route path="/about" element={<About/>} />
