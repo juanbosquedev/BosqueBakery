@@ -1,7 +1,6 @@
-import { Link } from "react-router-dom";
 export default function Contacto() {
   return (
-    <form>
+    <form id="contacto"> 
       <input type="text" id="inputName" name="name" placeholder="Name" />
       <input type="e-mail" id="inputEmail" name="e-mail" placeholder="E-mail" />
       <input
@@ -20,7 +19,7 @@ export default function Contacto() {
       <button type="submit" id="inputButton" name="inputButton">
         Enviar
       </button>
-      <Link to="/home">voler</Link>
+      <a href="#Nav">voler</a>
     </form>
   );
 }

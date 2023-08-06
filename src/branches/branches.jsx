@@ -5,7 +5,7 @@ import style from "./branches.module.css";
 function Branches() {
   
   return (
-    <>
+    <div id="sucursales">
       
         {branches.map((branche) => (
           <div className={style.branche_body} key={branche.name}>
@@ -28,9 +28,9 @@ function Branches() {
           </div>
         ))}
 
-        <Link to="/home" className={style.branche_comeBack_button}>voler</Link>
+        <a href="#home" className={style.branche_comeBack_button}>voler</a>
      
-    </>
+    </div>
   );
 }
 

@@ -1,18 +1,17 @@
-import { Link } from "react-router-dom";
 import style from './nav.module.css'
 
 export default function Nav() {
   return (
-    <div className={style.Nav_main}>
-      <Link to="/">Inicio</Link>
+    <div className={style.Nav_main} id="Nav">
+      <a href="#inicio">Inicio</a>
       <br />
-      <Link to="/products">Productos</Link>
+      <a href="#productos">Productos</a>
       <br />
-      <Link to="/about">Nosotros</Link>
+      <a href="#nosotros">Nosotros</a>
       <br />
-      <Link to="/sucursales">Sucursales</Link>
+      <a href="#sucursales">Sucursales</a>
       <br />
-      <Link to="contacto">Contacto</Link>
+      <a href="#contacto">Contacto</a>
       <br />
     </div>
   );
