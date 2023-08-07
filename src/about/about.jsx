@@ -9,7 +9,6 @@ export default function About() {
         mision
         <br />
         valores
-        
       </h1>
     </div>
   );

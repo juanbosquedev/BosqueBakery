@@ -1,6 +1,7 @@
+import style from './contact.module.css'
 export default function Contacto() {
   return (
-    <form id="contacto"> 
+    <form id="contacto" className={style.contacto_main}> 
       <input type="text" id="inputName" name="name" placeholder="Name" />
       <input type="e-mail" id="inputEmail" name="e-mail" placeholder="E-mail" />
       <input
