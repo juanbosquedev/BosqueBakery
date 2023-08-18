@@ -1,8 +1,16 @@
+/* .branche{
+height: 100vh;
+} */
 .branche_body {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-evenly;
   margin: 1rem;
+  border-radius: 3px;
+  border: rgb(228, 102, 29) solid 3px;
+  padding-top: 10px;
+  height: 20vh;
 }
 .branche_main {
   display: flex;
@@ -19,18 +27,17 @@
 
   display: flex;
   text-decoration: none;
- 
+
   border-color: rgb(26, 16, 2) 1px solid;
 
   justify-content: flex-end;
-
 }
 
-Link{
+.branche_link {
   display: flex;
   text-decoration: none;
   border-radius: 50%;
-  border-color: blanchedalmond 1px solid;
+  border-color: rgb(228, 102, 29) 5px solid;
   flex-direction: column;
-  justify-items: flex-end;
+  align-items: center;
 }
