@@ -4,10 +4,12 @@
   justify-content: space-around;
   height: 5rem;
   width: 100vw;
-
-  background-color: rgb(184, 100, 69);
+  background-color: aliceblue;
+  border-bottom: var(--backery-orange) solid 3px;
+  margin-bottom: 3px;
 }
 
-.Nav_main :link{
-    text-decoration: none;
+.Nav_main a {
+  text-decoration: none;
+  color: var(--backery-orange);
 }

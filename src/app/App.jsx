@@ -22,10 +22,10 @@ function App() {
         </Suspense>
 
         <Home />
+        <Products />
         <About />
         <Branches />
         <Contact />
-        <Products />
       </section>
     </div>
   );

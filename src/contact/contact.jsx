@@ -20,7 +20,6 @@ export default function Contacto() {
       <button type="submit" id="inputButton" name="inputButton">
         Enviar
       </button>
-      <a href="#Nav">voler</a>
     </form>
   );
 }

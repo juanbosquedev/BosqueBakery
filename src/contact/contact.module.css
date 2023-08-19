@@ -1,4 +1,6 @@
 .contacto_main{
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    margin: 0 50%;
+    width: 40vw;
+    gap:2px;
 }

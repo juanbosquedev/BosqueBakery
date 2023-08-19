@@ -3,6 +3,7 @@ height: 100vh;
 } */
 .branche_body {
   display: flex;
+ 
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
@@ -28,7 +29,7 @@ height: 100vh;
   display: flex;
   text-decoration: none;
 
-  border-color: rgb(26, 16, 2) 1px solid;
+  border-color: rgb(26, 16, 2) 3px solid;
 
   justify-content: flex-end;
 }

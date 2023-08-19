@@ -34,10 +34,6 @@ function Branches() {
           </div>
         </div>
       ))}
-
-      <a href="#home" className={style.branche_comeBack_button}>
-        voler
-      </a>
     </div>
   );
 }
