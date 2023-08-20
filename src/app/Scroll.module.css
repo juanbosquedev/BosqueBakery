@@ -1,20 +1,15 @@
 #Scroll{
-
-        /* position: sticky;
-        top: 80vh;
-        left:90vw;
-     */
-
      position: fixed;
      bottom: 20px;
      right: 20px;
-     padding: 10px 20px;
+     padding: 4px 8px;
      background-color: var(--backery-orange);
      color: white;
      border: none;
      border-radius: 45%;
      cursor: pointer;
      transition: opacity 0.3s;
+     font-size: 25px;
    }
    
    .Scroll.visible {
