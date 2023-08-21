@@ -1,15 +1,33 @@
-.Nav_main {
+.Nav {
   display: flex;
-  align-items: center;
-  justify-content: space-around;
-  height: 5rem;
-  width: 100vw;
+  background-image: url('../assets/background.png');
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  flex-direction: row;
   background-color: aliceblue;
   border-bottom: var(--backery-orange) solid 3px;
   margin-bottom: 3px;
+  align-items: center;
+  height: 5rem;
+}
+.Nav_main {
+  display: flex;
+  padding: 2rem;
+  font-weight: 900;
+  gap: 1.5rem;
+  justify-content: flex-end;
+  width: 100%;
 }
 
 .Nav_main a {
   text-decoration: none;
   color: var(--backery-orange);
+}
+
+.Nav_logo {
+  height: 4rem;
+  width: 3.9rem;
+  border: 3px var(--backery-orange) solid;
+  border-radius: 50%;
+  margin-left: 3rem;
 }
