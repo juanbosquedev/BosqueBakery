@@ -1,13 +1,12 @@
-/* .branche{
-height: 100vh;
-} */
+
 .branche_body {
   display: flex;
- 
+
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  margin: 1rem;
+  margin: 1rem 3rem;
+
   border-radius: 3px;
   border: rgb(228, 102, 29) solid 3px;
   padding-top: 10px;
