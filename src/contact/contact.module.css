@@ -1,6 +1,10 @@
 .contacto_main{
     display: grid;
+    height:  30vh;
+    width: 40vw;
+    grid-template:repeat(auto-fit, minmax(150px, 1fr)) ;
     margin: 4rem 30%;
     width: 40vw;
-    gap:2px;
+    gap:.5rem;
+    background-color: var(--backery-orange);
 }
