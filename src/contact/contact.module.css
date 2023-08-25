@@ -2,7 +2,7 @@
     display: grid;
     height:  30vh;
     width: 40vw;
-    grid-template:repeat(auto-fit, minmax(150px, 1fr)) ;
+    grid-template:repeat(auto-fill, minmax(150px, 1fr)) ;
     margin: 4rem 30%;
     width: 40vw;
     gap:.5rem;

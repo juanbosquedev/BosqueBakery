@@ -1,24 +1,24 @@
-import desayuno from '../assets/desayuno.png';
-import lilianMolina from "../assets/lilianMolina.png";
-import lopezCabrera from "../assets/lopezCabrera.png";
-import celsoBarrios from "../assets/celsoBarrios.png";
+// import desayuno from '../assets/desayuno.png';
+import palmeritas from "../assets/palmeritas.png";
+import alfajorNegro from "../assets/alfajorNegro.png";
+import pastaFrola from "../assets/pastaFrola.png";
 
 const products = [
+  // {
+  //   name: 'Desayuno',
+  //   Img: desayuno,
+  // },
   {
-    name: 'Desayuno',
-    Img: desayuno,
+    name: "pastaFrola",
+    Img: pastaFrola,
   },
   {
-    name: "Sucursal 2",
-    Img: lopezCabrera,
+    name: "alfajorNegro",
+    Img: alfajorNegro,
   },
   {
-    name: "Sucursal 3",
-    Img: celsoBarrios,
-  },
-  {
-    name: "Sucursal 4",
-    Img: lilianMolina,
+    name: "palmeritas",
+    Img:palmeritas,
   },
 ];
 export default products;
