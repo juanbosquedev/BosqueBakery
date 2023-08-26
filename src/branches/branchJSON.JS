@@ -1,7 +1,7 @@
 import centralIMG from   '../assets/map/centralMG.png'
 import lilianMolina from '../assets/map/lilianMolina.png'
 import lopezCabrera from '../assets/map/lopezCabrera.png'
-import celsoBarrios from '../assets/map/celsoBarrios.png'
+import celsoBarrios from '../assets/map/CelsoBarrios.png'
 
 
 const branches = [
