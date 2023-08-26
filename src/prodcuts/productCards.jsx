@@ -1,7 +1,7 @@
-import products from "./branchJSON.JS";
+import products from "./productsJSON.JS";
 import style from "./productCards.module.css";
 export default function ProductsCards() {
-  console.log({ products });
+
   return (
     <div id="productos" className={style.productCard_body}>
       {products &&

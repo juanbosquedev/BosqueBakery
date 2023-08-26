@@ -1,10 +1,10 @@
 import style from "./nav.module.css";
-import logo from "../assets/logo.png";
+import logo from "../assets/logoBig.png";
 
 export default function Nav() {
   return (
     <div className={style.Nav} id="Nav">
-      <img className={style.Nav_logo} src={logo} alt="logo" />
+      <img className={style.Nav_logo} src={logo} alt="logoBig" />
       <section className={style.Nav_main}>
         <a href="#inicio">Inicio</a>
         <br />
