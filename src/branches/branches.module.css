@@ -6,7 +6,7 @@
   align-items: center;
   justify-content: space-evenly;
   margin: 1rem 3rem;
-
+  min-height: 6rem;
   border-radius: 3px;
   border: rgb(228, 102, 29) solid 3px;
   padding-top: 10px;
@@ -14,9 +14,15 @@
 }
 .branche_main {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-items: center;
   width: 40vw;
+  font-size: .7rem;
   align-content: center;
+}
+.branche_main h3{
+  display: flex;
+  justify-self:center;
 }
 
 .branche_map_img {

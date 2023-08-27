@@ -21,6 +21,7 @@
 
 .Nav_main a {
   text-decoration: none;
+  -webkit-text-stroke: black 0.2px;
   color: var(--backery-orange);
 }
 

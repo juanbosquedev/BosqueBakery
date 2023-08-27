@@ -10,9 +10,8 @@ function Branches() {
           <div className={style.branche} key={branche.name}>
             <div className={style.branche_body}>
               <main className={style.branche_main}>
-                {branche.name}
-                <br />
-                {branche.adress}
+                <h3>{branche.name}</h3>
+                <h1> {branche.adress}</h1>
               </main>
 
               <div className={style.branche_map}>
