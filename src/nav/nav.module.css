@@ -6,7 +6,6 @@
   flex-direction: row;
   background-color: aliceblue;
   border-bottom: var(--backery-orange) solid 3px;
-  margin-bottom: 3px;
   align-items: center;
   height: 5rem;
 }

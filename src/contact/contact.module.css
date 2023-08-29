@@ -3,8 +3,9 @@
     height:  30vh;
     width: 40vw;
     grid-template:repeat(auto-fill, minmax(150px, 1fr)) ;
-    margin: 4rem 30%;
-    width: 40vw;
+    margin: 4rem 20%;
+    /* width: 40vw; */
     gap:.5rem;
     background-color: var(--backery-orange);
+    flex-grow: 1;
 }

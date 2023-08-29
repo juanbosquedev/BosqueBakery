@@ -1,7 +1,6 @@
-
 .branche_body {
   display: flex;
-
+  flex-grow: 1;
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
@@ -17,12 +16,12 @@
   flex-direction: column;
   justify-items: center;
   width: 40vw;
-  font-size: .7rem;
+  font-size: 0.7rem;
   align-content: center;
 }
-.branche_main h3{
+.branche_main h3 {
   display: flex;
-  justify-self:center;
+  justify-self: center;
 }
 
 .branche_map_img {

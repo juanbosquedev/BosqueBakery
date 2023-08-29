@@ -3,6 +3,7 @@
   line-height: 1.5;
   font-weight: 400;
   --backery-orange: rgb(226, 113, 72) ;
+  --backery-green: rgb(98, 202, 116);
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
