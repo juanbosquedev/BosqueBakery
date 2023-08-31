@@ -1,11 +1,21 @@
 .contacto_main{
     display: grid;
-    height:  30vh;
-    width: 40vw;
-    grid-template:repeat(auto-fill, minmax(150px, 1fr)) ;
-    margin: 4rem 20%;
+    grid-template: minmax(150px, 1fr) ;
+
+    background-color: var(--backery-orange);
+    width: 100vw;
+   height: 50vh;
+justify-content: center;
+padding: 3rem;
+
+}
+.contacto_form_main{
+    display: grid;
+    max-height:  30vh;
+   width: 44vw;
+    grid-template: minmax(150px, 1fr) ;
+    padding-bottom: 1.5rem ;
     gap:.5rem;
-    background-color: var(--backery-orange);
-    flex-grow: 1;
-    background-color: var(--backery-orange);
+ 
+    
 }

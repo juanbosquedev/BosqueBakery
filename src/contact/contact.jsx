@@ -1,7 +1,10 @@
 import style from './contact.module.css'
 export default function Contacto() {
   return (
-    <form id="contacto" className={style.contacto_main}> 
+    <div className={style.contacto_main}>
+
+   
+    <form id="contacto" className={style.contacto_form_main}> 
       <input type="text" id="inputName" name="name" placeholder="Name" />
       <input type="e-mail" id="inputEmail" name="e-mail" placeholder="E-mail" />
       <input
@@ -21,5 +24,6 @@ export default function Contacto() {
         Enviar
       </button>
     </form>
+    </div>
   );
 }
