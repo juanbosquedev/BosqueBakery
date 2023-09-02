@@ -19,3 +19,17 @@ padding: 3rem;
  
     
 }
+textarea{
+    height: 3rem;
+}
+input, textarea{
+
+    padding: .3rem;
+    border-radius: .2rem;
+    border: 4px var(--backery-green)double;
+}
+button{
+    border: 4px var(--backery-green)double;
+
+    border-radius: .2rem; 
+}
