@@ -1,4 +1,5 @@
 import { useState } from "react";
+import style from "./paginate.module.css";
 
 export default function Paginate(producto) {
   const [count, setCount] = useState(0);
@@ -18,15 +19,15 @@ export default function Paginate(producto) {
     }
   };
   return (
-    <div>
-      <div>
+    <div className={style.paginate_body}>
+     
+      <div className={style.paginate_content}>
         <h1>{producto.producto[count].name}</h1>
-        <img src={producto.producto[count].Img}></img>
-
-        <button onClick={handleDecrement}>-</button>
-        <button onClick={handleIncrement}>+</button>
-        <br />
+      <button onClick={handleDecrement}> &lt; </button>
+        <img src={producto.producto[count].Img} className={style.paginate_image}></img>
+      <button onClick={handleIncrement}> &gt; </button>
       </div>
+ 
     </div>
   );
 }

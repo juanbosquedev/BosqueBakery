@@ -1,0 +1,30 @@
+.paginate_body {
+  display: flex;
+  
+  justify-content: center;
+  align-content: center;
+  border: .5px rgb(155, 83, 24) groove;
+ width: 60%;
+ height: 50vh;
+  border-radius: 2%;
+}
+.paginate_contente {
+  display: flex;
+  justify-items: center;
+  text-align: center;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+
+}
+.paginate_image {
+  height: 8em;
+  width: 10em;
+  min-width: 10em;
+  max-width: 10em;
+  min-height: 8em;
+  max-height: 8em;
+  image-orientation: flip;
+}
