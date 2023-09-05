@@ -14,55 +14,55 @@ import roscas from "../assets/roscas.png";
 
 const products = [
   {
-    name: "alfajoreMaicena",
+    name: "Alfajor de Maicena",
     Img: alfajoreMaicena,
   },
   {
-    name: "cañoncitos",
+    name: "Cañoncitos de Dulce de Leche",
     Img: cañoncitos,
   },
   {
-    name: "biscocosMiel",
+    name: "Biscochos Miel",
     Img: biscocosMiel,
   },
   {
-    name: "merenguitos",
+    name: "Merenguitos",
     Img: merenguitos,
   },
   {
-    name: "milHojas",
+    name: "Mil Hojas",
     Img: milHojas,
   },
   {
-    name: "ojosBuey",
+    name: "Ojos de Buey",
     Img: ojosBuey,
   },
   {
-    name: "alfajoresByN",
+    name: "Alfajores ",
     Img: alfajoresByN,
   },
   {
-    name: "panCasero",
+    name: "Pan Casero",
     Img: panCasero,
   },
   {
-    name: "panDulce",
+    name: "Pan Dulce",
     Img: panDulce,
   },
   {
-    name: "roscas",
+    name: "Roscas",
     Img: roscas,
   },
   {
-    name: "pastaFrola",
+    name: "Pasta Frola",
     Img: pastaFrola,
   },
   {
-    name: "alfajorNegro",
+    name: "Alfajor Negro",
     Img: alfajorNegro,
   },
   {
-    name: "palmeritas",
+    name: "Palmeritas",
     Img: palmeritas,
   },
 ];
