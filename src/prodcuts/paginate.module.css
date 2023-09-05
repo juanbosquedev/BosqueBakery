@@ -1,30 +1,49 @@
 .paginate_body {
   display: flex;
-  
+
   justify-content: center;
   align-content: center;
-  border: .5px rgb(155, 83, 24) groove;
- width: 60%;
- height: 50vh;
+  border: 0.5px rgb(155, 83, 24) groove;
+  width: 60%;
+  height: 50vh;
   border-radius: 2%;
 }
 .paginate_contente {
+  position: relative;
   display: flex;
   justify-items: center;
   text-align: center;
 }
+.paginate_content_btn_next {
+  right: 1rem;
+  position: absolute;
+  background-color: rgb(240, 248, 255);
+  border-radius: 40px;
+}
+.paginate_content_btn_prev {
+  left: 1rem;
+  position: absolute;
+  background-color: rgb(240, 248, 255);
+  border-radius: 40px;
+  border: solid 10px, brown;
+}
+
+.paginate_contente,
 h1 {
   display: flex;
   justify-content: center;
   font-size: 1rem;
-
+}
+.image_container {
+  display: flex;
+  position: relative;
+  align-items: center;
 }
 .paginate_image {
-  height: 8em;
-  width: 10em;
-  min-width: 10em;
-  max-width: 10em;
-  min-height: 8em;
-  max-height: 8em;
-  image-orientation: flip;
+  height: 15em;
+  width: 15em;
+  display: block;
+  object-position: center;
+  object-fit: cover;
+  border-radius: 0.5rem;
 }
