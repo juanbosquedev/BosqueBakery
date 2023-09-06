@@ -15,17 +15,24 @@
   text-align: center;
 }
 .paginate_content_btn_next {
-  right: 1rem;
+  border: none;
+  right: .5rem;
   position: absolute;
-  background-color: rgb(240, 248, 255);
+  background-color: transparent;
   border-radius: 40px;
+  color: aliceblue;
+  font-weight: 500;
+  font-size: 1.3em;
 }
 .paginate_content_btn_prev {
-  left: 1rem;
+  border: none;
+  left: .5rem;
   position: absolute;
-  background-color: rgb(240, 248, 255);
+  background-color: transparent;
   border-radius: 40px;
-  border: solid 10px, brown;
+  color: aliceblue;
+  font-weight: 500;
+  font-size: 1.3em;
 }
 
 .paginate_contente,
