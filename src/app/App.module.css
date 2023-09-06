@@ -8,5 +8,5 @@ html{
   scroll-behavior: smooth;
 }
 :root {
-  font-size: clamp(15px, 5vw, 17px); 
+  font-size: clamp(15px, 3vw, 17px); 
 }
