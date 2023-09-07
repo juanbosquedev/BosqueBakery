@@ -9,6 +9,51 @@
   align-items: center;
   height: 5rem;
 }
+
+/* En tu archivo CSS (por ejemplo, nav.module.css) */
+@media only screen and (max-width: 600px) {
+  .Nav_main{
+  flex-direction: column;
+    padding: 1rem;
+    font-weight: 900;
+    gap: .3rem;
+    justify-content: cente;
+    align-items:stretch;
+    flex-wrap: wrap;
+    width: 25vw;
+    max-width: 25vw;
+    background-color: aqua;
+    z-index: 1;
+    height: 50rem;
+  }
+  br{
+  display: none;
+  }
+}
+.Nav_dropdown {
+  position: absolute;
+  top:40%;
+  left: 0;
+  background-color: #ffffff; /* Color de fondo del menú */
+  border: 1px solid #ccc; /* Borde del menú */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+  z-index: 1000; /* Asegura que el menú esté por encima de otros elementos */
+  display: none; /* Oculta el menú por defecto */
+}
+
+.Nav_dropdown a {
+  /* display: block; */
+  flex-direction: column;
+  padding: 10px 20px; /* Espaciado interno de los elementos del menú */
+  text-decoration: none;
+  color: #333; /* Color del texto del menú */
+  transition: background-color 0.3s ease; /* Transición para el cambio de color de fondo */
+}
+
+.Nav_dropdown a:hover {
+  background-color: #f0f0f0; /* Color de fondo al pasar el cursor por encima */
+}
+
 .Nav_main {
   display: flex;
   padding: 2rem;
@@ -22,6 +67,8 @@
   text-decoration: none;
   -webkit-text-stroke: black 0.2px;
   color: var(--backery-orange);
+  margin:0;
+  padding:0;
 }
 
 .Nav_logo {
