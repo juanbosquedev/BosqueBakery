@@ -58,11 +58,11 @@ export default function Nav() {
           className={style.Nav_dropdown}
           style={{ display: showButton ? "none" : "block" }}
         >
-          <a href="#inicio">Inicio</a>
+          {/* <a href="#inicio">Inicio</a>
           <a href="#productos">Productos</a>
           <a href="#nosotros">Nosotros</a>
           <a href="#sucursales">Sucursales</a>
-          <a href="#contacto">Contacto</a>
+          <a href="#contacto">Contacto</a> */}
         </div>
       )}
     </div>
