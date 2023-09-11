@@ -20,7 +20,6 @@ export default function Paginate({ products }) {
   return (
     <div className={style.paginate_body}>
       <div className={style.paginate_content}>
-        {/* <h1>{products[count].Img && products[count].name}</h1> */}
         <div className={style.image_container}>
           <button
             onClick={handleDecrement}
@@ -29,7 +28,6 @@ export default function Paginate({ products }) {
             &lt;
           </button>
           <ProductCard img={products[count].Img} name={products[count].name} />
-          {/* <img src={products[count].Img} className={style.paginate_image}></img> */}
           <button
             onClick={handleIncrement}
             className={style.paginate_content_btn_next}
