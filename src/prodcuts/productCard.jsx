@@ -7,8 +7,8 @@ export default function ProductCard({img, name}) {
 
   return (
 <div>
-  <h1>{name}</h1>
 <img src={img} className={style.paginate_image}></img> 
+  <h1>{name}</h1>
 </div>
   );
 }
