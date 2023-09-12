@@ -16,18 +16,19 @@ export default function Paginate({ products }) {
       setCount(count - 1);
     }
   };
-
+   const render =  <ProductCard img={products[count].Img} name={products[count].name} />
+         
   return (
     <div className={style.paginate_body}>
       <div className={style.paginate_content}>
-        <div className={style.image_container}>
+       <div className={style.image_container}>
           <button
             onClick={handleDecrement}
             className={style.paginate_content_btn_prev}
           >
             &lt;
           </button>
-          <ProductCard img={products[count].Img} name={products[count].name} />
+          {render}
           <button
             onClick={handleIncrement}
             className={style.paginate_content_btn_next}
