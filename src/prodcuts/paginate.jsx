@@ -16,6 +16,7 @@ export default function Paginate({ products }) {
       setCount(count - 1);
     }
   };
+  
    const render =  <ProductCard img={products[count].Img} name={products[count].name} />
          
   return (
